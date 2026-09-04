@@ -4,7 +4,7 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import './App.css';
 
-const API_BASE_URL = (import.meta.env && import.meta.env.VITE_API_BASE_URL) || 'http://localhost:5000';
+const API_BASE_URL = 'https://taskflow-3vgm.onrender.com';
 
 function App() {
   const [tasks, setTasks] = useState([]);
